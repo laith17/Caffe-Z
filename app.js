@@ -1,9 +1,3 @@
-// const userName = document.getElementById("userName").value;
-// const age = document.getElementById("age").value;
-// const drink = document.getElementsByClassName("drinkType").value;
-// const drinkName = document.getElementById("drinkName").value;
-// const submit = document.getElementById("submit");
-
 submit.addEventListener("click", (event) => {
   event.preventDefault();
 });
@@ -40,10 +34,3 @@ submit.addEventListener("click", () => {
 
   document.body.appendChild(division);
 });
-
-// console.log(`${userName} ordered ${drinkName}`);
-
-// const userInfo = [userName, gender, drink, drinkName];
-// for (let i = 0; i < userInfo.length; i++) {
-//   console.log(userInfo[i]);
-// }
