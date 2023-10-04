@@ -9,6 +9,8 @@ submit.addEventListener("click", () => {
   drink.forEach((item) => {
     if (item.checked) {
       listArray.push(item.value);
+    } else if (item.checked === false) {
+      listArray[0] = item.innerHTML = "You didin't select a drink type";
     }
   });
   drink = listArray.join("/");
